@@ -1,0 +1,81 @@
+#wallpaper{
+    background-image: url("../img/wallpaper.jpg");
+    background-repeat: repeat-x;
+    background-size: 40% 60%;
+    background-color: brown;
+    height: 105vh;
+    width: 100%;
+}
+ul{
+    background-color: blue;
+    margin-left: 400px;
+    display: flex;
+    list-style: none;
+    position: fixed;
+    width: 35%;
+    color: white;
+}
+ul li{
+    padding-left: 70px;
+}
+h1{
+    text-align: center;
+    padding-top: 45px;
+}
+h3{
+    text-align: center;
+}
+h4{
+    text-align: center;
+    color: white;
+    padding-top: 350px;
+}
+p{
+    text-align: center;
+}
+#container-cube1 img{
+    height: 30px;
+    width: 60px;
+    position:absolute;
+    top:255px;
+    left: 360px;
+}
+#container-cube2 img{
+    height: 30px;
+    width: 60px;
+    position:absolute;
+    top:270px;
+    left: 485px;
+}
+#container-mario img{
+    height: 25px;
+    width: 25px;
+    position:absolute;
+    top:265px;
+    left: 275px;
+    animation-name: mario;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes mario{
+    0%{
+        left: 275px;
+        top: 265px;
+    }
+    25%{
+        left: 80px;
+        top: 200px;
+    }
+    50%{
+        left: 100px;
+        top: 200px;
+    }
+    75%{
+        left: 80px;
+        top: 200px;
+    }
+    100%{
+        left: 60px;
+        top: 200px;
+    }
+}
